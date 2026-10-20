@@ -2,7 +2,10 @@ const WA = '6281234567890'; // GANTI dengan nomor WhatsApp Anda (format 62..., t
 
 const header = `
 <header class="site"><div class="wrap bar">
-  <a class="logo" href="index.html"><i></i>Syams Digital</a>
+  <a class="logo" href="index.html">
+  <img src="img/logo-sd.png" alt="Syams Digital">
+  <span>Syams Digital</span>
+</a>
   <button class="burger" aria-label="Buka menu" aria-expanded="false"><span></span></button>
   <nav id="nav" aria-label="Menu utama"><ul>
     <li><a href="index.html">Beranda</a></li>
