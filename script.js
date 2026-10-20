@@ -2,13 +2,13 @@ const WA = '6281234567890'; // GANTI dengan nomor WhatsApp Anda (format 62..., t
 
 const header = `
 <header class="site"><div class="wrap bar">
-  <a class="logo" href="beranda.html">
+  <a class="logo" href="index.html">
   <img src="img/logo-sd.png" alt="Syams Digital">
   <span>Syams Digital</span>
 </a>
   <button class="burger" aria-label="Buka menu" aria-expanded="false"><span></span></button>
   <nav id="nav" aria-label="Menu utama"><ul>
-    <li><a href="beranda.html">Beranda</a></li>
+    <li><a href="index.html">Beranda</a></li>
     <li class="has"><button class="m" aria-expanded="false">Layanan</button>
       <div class="mega"><div class="wrap grid">
         <div><h4>Undangan digital</h4>
@@ -36,7 +36,7 @@ const footer = `
 <footer class="site"><div class="wrap">
   <div class="cols">
     <div><h4>Syams Digital</h4><p>Jasa pembuatan undangan digital, landing page, dan company profile untuk usaha dan acara Anda.</p></div>
-    <div><h4>Halaman</h4><a href="beranda.html">Beranda</a><a href="layanan.html">Layanan</a><a href="portofolio.html">Portofolio</a><a href="kontak.html">Kontak</a></div>
+    <div><h4>Halaman</h4><a href="index.html">Beranda</a><a href="layanan.html">Layanan</a><a href="portofolio.html">Portofolio</a><a href="kontak.html">Kontak</a></div>
     <div><h4>Hubungi</h4><a data-wa href="#">WhatsApp</a><a href="mailto:el.hadee98@gmail.com">Email</a></div>
   </div>
   <div class="copy">&copy; <span id="yr"></span> Syams Digital. All Rights Reserved.</div>
