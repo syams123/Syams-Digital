@@ -50,7 +50,7 @@ const page = (location.pathname.split('/').pop() || 'index').replace('.html', ''
 document.querySelectorAll('nav > ul > li > a:not(.btn)').forEach(a => {
   if (a.getAttribute('href').replace('.html', '') === page) a.classList.add('on');
 });
-const SVC = ["undangan-pernikahan", "undangan-khitan", "undangan-ulang-tahun", "landing-page", "company-profile", "katalog-produk", "domain-hosting", "perawatan-website", "redesain-website"];
+const SVC = ["undangan-pernikahan", "undangan-khitan", "undangan-ulang-tahun", "landing-page", "company-profile", "katalog-produk", "cv-digital", "sertifikat-digital", "perawatan-website"];
 if (page === 'layanan' || SVC.includes(page)) document.querySelector('nav li.has > button').classList.add('on');
 document.querySelectorAll('[data-wa]').forEach(a => {
   a.href = `https://wa.me/${WA}?text=${encodeURIComponent('Halo, saya ingin bertanya tentang jasa pembuatan website.')}`;
