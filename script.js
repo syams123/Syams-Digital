@@ -1,4 +1,4 @@
-const WA = '6281234567890'; // GANTI dengan nomor WhatsApp Anda (format 62..., tanpa + atau spasi)
+const WA = '6285707838184'; // GANTI dengan nomor WhatsApp Anda (format 62..., tanpa + atau spasi)
 
 const header = `
 <header class="site"><div class="wrap bar">
