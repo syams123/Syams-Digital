@@ -20,9 +20,9 @@ const header = `
           <a href="company-profile.html">Company profile</a>
           <a href="marketplace.html">Marketplace</a></div>
         <div><h4>Pendukung</h4>
-          <a href="domain-hosting.html">Domain &amp; hosting</a>
-          <a href="perawatan-website.html">Perawatan website</a>
-          <a href="redesain-website.html">Perbaikan &amp; redesain</a></div>
+  <a href="cv-digital.html">Pembuatan CV digital</a>
+  <a href="sertifikat-digital.html">Pembuatan sertifikat digital</a>
+  <a href="perawatan-website.html">Perawatan website</a></div>
         <aside><p>Belum tahu butuh yang mana? Ceritakan usaha Anda, kami bantu pilihkan.</p>
           <a class="btn" href="kontak.html" style="display:inline-block;padding:9px 16px">Konsultasi gratis</a></aside>
       </div></div></li>
