@@ -198,3 +198,32 @@ nav button.m.on{background:var(--mist)}
 .cvm .mn2{padding:14px 9px;display:grid;gap:7px;align-content:start}
 .cvm .mn2 i{height:5px;background:var(--line);border-radius:3px}
 .cvm .mn2 i:first-child{background:var(--ink);width:62%}
+/* Style Dasar Logo Header */
+.logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  font-weight: 700;
+  color: inherit;
+}
+
+/* Membatasi Ukuran Gambar Logo (Penting!) */
+.logo img {
+  height: 38px;        /* Batas tinggi logo di laptop/desktop */
+  width: auto;         /* Agar rasio gambar tidak peyot */
+  max-width: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+/* Responsif untuk Layar HP (Maksimal Lebar 768px) */
+@media (max-width: 768px) {
+  .logo img {
+    height: 30px;      /* Ukuran sedikit lebih kecil di HP */
+  }
+  
+  .logo span {
+    font-size: 1rem;   /* Ukuran teks disesuaikan */
+  }
+}
